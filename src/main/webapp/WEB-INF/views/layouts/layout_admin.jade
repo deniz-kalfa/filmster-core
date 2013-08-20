@@ -1,0 +1,21 @@
+!!! 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='../static/stylesheets/main.css')
+    link(rel='stylesheet', href='../static/stylesheets/bootstrap.css')
+    link(rel='stylesheet', href='../static/stylesheets/bootstrap-responsive.css')
+    script(type='text/javascript', src='../static/javascripts/jquery-1.9.0.min.js')
+    script(type='text/javascript', src='../static/javascripts/bootstrap.js')
+  body
+    .navbar
+      .navbar-inner
+        .container
+          a.brand(href='#') filmster Core
+
+    .container
+      block content
+
+      hr
+      footer
+        p © 2012
