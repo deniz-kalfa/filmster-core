@@ -6,6 +6,9 @@ run-app:
 test-app:
 	./gradlew clean test
 
+test-app-ci:
+	./gradlew clean test
+
 setup-app:
 	git remote add functional01 git@heroku.com:filmster-core-func01.git
 	git remote add qa01         git@heroku.com:filmster-core-qa01.git
